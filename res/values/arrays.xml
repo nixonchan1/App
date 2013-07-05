@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender">
+    <item>@string/gendermale</item>
+    <item>@string/genderfemale</item>
+    </string-array>
+    
+    <string-array name="exercise">
+    <item>@string/little</item>
+    <item>@string/light</item>
+     <item>@string/moderate</item>
+      <item>@string/heavy</item>
+    </string-array>
+</resources>

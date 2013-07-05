@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nixon"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/apple"
+        android:label="@string/app_name"
+        android:logo="@drawable/apple"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.nixon.Splash"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nixon.Main"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.nixon.Setting"
+            android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+            android:name="com.example.nixon.Foodlist"
+            android:label="@string/title_activity_foodlist" >
+        </activity>
+        <activity
+            android:name="com.example.nixon.Conclusion"
+            android:label="@string/title_activity_conclusion" >
+        </activity>
+        <activity
+            android:name=".Trial_main"
+            android:label="@string/title_activity_trial_main" >
+        </activity>
+        <activity
+            android:name=".Trial_group"
+            android:label="@string/title_activity_trial_group" >
+        </activity>
+        <activity
+            android:name=".Trial_child"
+            android:label="@string/title_activity_trial_child" >
+        </activity>
+        <activity
+            android:name="com.example.nixon.Trial_adapter"
+            android:label="@string/title_activity_trial_adapter" >
+        </activity>
+    </application>
+
+</manifest>

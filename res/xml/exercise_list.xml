@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<get_exercise>
+
+    <exercisez little="非常少"
+     light="輕微"
+    moderate="中等"
+   heavy="大量" />
+
+</get_exercise>
